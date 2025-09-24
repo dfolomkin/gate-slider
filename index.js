@@ -49,13 +49,15 @@ const initState = {
   },
 };
 
+const REMOTE_BASE_URL = 'https://dfolomkin.github.io/gate-slider/';
+
 const createLayout = (container) => {
   const gateBg = document.createElement('div');
   gateBg.id = 'gate_bg';
   gateBg.style.position = 'relative';
   gateBg.style.width = '270px';
   gateBg.style.height = '218px';
-  gateBg.style.background = "url('assets/open_close_gate_01_bg.png')";
+  gateBg.style.background = `url('${REMOTE_BASE_URL}assets/open_close_gate_01_bg.png')`;
 
   const gateHead = document.createElement('div');
   gateHead.id = 'gate_head';
@@ -64,7 +66,7 @@ const createLayout = (container) => {
   gateHead.style.top = '103px';
   gateHead.style.width = '22px';
   gateHead.style.height = '18px';
-  gateHead.style.background = "url('assets/open_close_gate_01_0008_head.png')";
+  gateHead.style.background = `url('${REMOTE_BASE_URL}assets/open_close_gate_01_0008_head.png')`;
 
   const gateBody = document.createElement('div');
   gateBody.id = 'gate_body';
@@ -73,7 +75,7 @@ const createLayout = (container) => {
   gateBody.style.top = '116px';
   gateBody.style.width = '75px';
   gateBody.style.height = '57px';
-  gateBody.style.background = "url('assets/open_close_gate_01_0001_body.png')";
+  gateBody.style.background = `url('${REMOTE_BASE_URL}assets/open_close_gate_01_0001_body.png')`;
   gateBody.style.transformOrigin = '50% 100%';
 
   const gateArmRight1 = document.createElement('div');
@@ -83,8 +85,7 @@ const createLayout = (container) => {
   gateArmRight1.style.top = '84px';
   gateArmRight1.style.width = '26px';
   gateArmRight1.style.height = '61px';
-  gateArmRight1.style.background =
-    "url('assets/open_close_gate_01_0003_arm_right_1.png')";
+  gateArmRight1.style.background = `url('${REMOTE_BASE_URL}assets/open_close_gate_01_0003_arm_right_1.png')`;
   gateArmRight1.style.transformOrigin = '50% 100%';
 
   const gateArmLeft1 = document.createElement('div');
@@ -94,8 +95,7 @@ const createLayout = (container) => {
   gateArmLeft1.style.top = '83px';
   gateArmLeft1.style.width = '26px';
   gateArmLeft1.style.height = '51px';
-  gateArmLeft1.style.background =
-    "url('assets/open_close_gate_01_0006_arm_left_1.png')";
+  gateArmLeft1.style.background = `url('${REMOTE_BASE_URL}assets/open_close_gate_01_0006_arm_left_1.png')`;
   gateArmLeft1.style.transformOrigin = '50% 100%';
 
   const gateArmRight2 = document.createElement('div');
@@ -105,8 +105,7 @@ const createLayout = (container) => {
   gateArmRight2.style.top = '47px';
   gateArmRight2.style.width = '28px';
   gateArmRight2.style.height = '47px';
-  gateArmRight2.style.background =
-    "url('assets/open_close_gate_01_0002_arm_right_2.png')";
+  gateArmRight2.style.background = `url('${REMOTE_BASE_URL}assets/open_close_gate_01_0002_arm_right_2.png')`;
   gateArmRight2.style.transformOrigin = '50% 0';
 
   const gateArmLeft2 = document.createElement('div');
@@ -116,8 +115,7 @@ const createLayout = (container) => {
   gateArmLeft2.style.top = '57px';
   gateArmLeft2.style.width = '21px';
   gateArmLeft2.style.height = '34px';
-  gateArmLeft2.style.background =
-    "url('assets/open_close_gate_01_0005_arm_left_2.png')";
+  gateArmLeft2.style.background = `url('${REMOTE_BASE_URL}assets/open_close_gate_01_0005_arm_left_2.png')`;
   gateArmLeft2.style.transformOrigin = '50% 0';
 
   const gateLever = document.createElement('div');
@@ -127,8 +125,7 @@ const createLayout = (container) => {
   gateLever.style.top = '32px';
   gateLever.style.width = '320px';
   gateLever.style.height = '220px';
-  gateLever.style.background =
-    "url('assets/open_close_gate_01_0000_lever_v2.png')";
+  gateLever.style.background = `url('${REMOTE_BASE_URL}assets/open_close_gate_01_0000_lever_v2.png')`;
   gateLever.style.cursor = 'grab';
   gateLever.style.transform = `rotate(${initState.lever.rotate}deg)`;
   gateLever.style.transformOrigin = '100% 30%';
