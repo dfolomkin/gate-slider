@@ -1,0 +1,70 @@
+#gate_bg {
+  position: relative;
+  width: 270px;
+  height: 218px;
+  background: url('assets/open_close_gate_01_bg.png');
+}
+
+#gate_head {
+  position: absolute;
+  left: 53px;
+  top: 103px;
+  width: 22px;
+  height: 18px;
+  background: url('assets/open_close_gate_01_0008_head.png');
+}
+
+#gate_body {
+  position: absolute;
+  left: 45px;
+  top: 116px;
+  width: 75px;
+  height: 57px;
+  background: url('assets/open_close_gate_01_0001_body.png');
+}
+
+#gate_arm_right_1 {
+  position: absolute;
+  left: 33px;
+  top: 84px;
+  width: 26px;
+  height: 61px;
+  background: url('assets/open_close_gate_01_0003_arm_right_1.png');
+}
+
+#gate_arm_left_1 {
+  position: absolute;
+  left: 87px;
+  top: 83px;
+  width: 26px;
+  height: 51px;
+  background: url('assets/open_close_gate_01_0006_arm_left_1.png');
+}
+
+#gate_arm_right_2 {
+  position: absolute;
+  left: 41px;
+  top: 47px;
+  width: 28px;
+  height: 47px;
+  background: url('assets/open_close_gate_01_0002_arm_right_2.png');
+}
+
+#gate_arm_left_2 {
+  position: absolute;
+  left: 85px;
+  top: 57px;
+  width: 21px;
+  height: 34px;
+  background: url('assets/open_close_gate_01_0005_arm_left_2.png');
+}
+
+#gate_lever {
+  position: absolute;
+  left: 42px;
+  top: 31px;
+  width: 114px;
+  height: 52px;
+  background: url('assets/open_close_gate_01_0000_lever.png');
+}
+
